@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# GasSensor
+#
+DEF GasSensor U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "GasSensor" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 -250 700 -1050 0 1 0 f
+X TempSensor 1 -600 -300 200 R 50 50 1 1 P
+X GND 10 400 -1250 200 U 50 50 1 1 I
+X GazSensorRight 2 -600 -900 200 R 50 50 1 1 P
+X HeartSensor 3 900 -300 200 L 50 50 1 1 P
+X GazSensorRight 4 -600 -1000 200 R 50 50 1 1 P
+X GND 5 300 -1250 200 U 50 50 1 1 I
+X TempSensor 6 -600 -400 200 R 50 50 1 1 P
+X GazSensorLeft 7 -600 -600 200 R 50 50 1 1 P
+X HeartSensor 8 900 -400 200 L 50 50 1 1 P
+X GazSensorLeft 9 -600 -700 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GazSensor
+#
+DEF GazSensor U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "GazSensor" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 -250 700 -1050 0 1 0 f
+X TempSensor 1 -600 -300 200 R 50 50 1 1 P
+X GND 10 400 -1250 200 U 50 50 1 1 I
+X GazSensorRight 2 -600 -900 200 R 50 50 1 1 P
+X HeartSensor 3 900 -300 200 L 50 50 1 1 P
+X GazSensorRight 4 -600 -1000 200 R 50 50 1 1 P
+X GND 5 300 -1250 200 U 50 50 1 1 I
+X TempSensor 6 -600 -400 200 R 50 50 1 1 P
+X GazSensorLeft 7 -600 -600 200 R 50 50 1 1 P
+X HeartSensor 8 900 -400 200 L 50 50 1 1 P
+X GazSensorLeft 9 -600 -700 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
