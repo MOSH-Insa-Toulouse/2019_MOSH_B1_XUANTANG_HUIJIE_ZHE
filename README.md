@@ -2,7 +2,8 @@
 
 ## kicad
 
-In order to establish the best circuit between the LoRa module and the gas sensor introduced in the MOSH section above, we have drawn the following circuit diagram, which includes our components: LTC1050, RN2485, gas sensor, connector.
+In order to establish the best circuit between the LoRa module and the gas sensor introduced in the MOSH section above, we have drawn the following circuit diagram, which includes our components: a LoRa Module (RN2483) as transceiver, a Gas sensor
+, an amplifier (LTC1050).
 
 ![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/1.jpg "Figure 1: Diagram of the shield's electrical circuit")
 
