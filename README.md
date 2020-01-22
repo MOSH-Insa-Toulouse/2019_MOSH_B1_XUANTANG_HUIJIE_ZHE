@@ -44,3 +44,26 @@ We used two layers of circuits, the lower layer was connected to ground, the vol
 
 Here is the final 3d model of our results:
 ![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/3D.jpg "Figure 8: 3D Model")
+
+
+## Part LTSpice
+
+This stage is composed of several filters and an operational amplifier. We used LTSpice to simulate the analog circuit.
+![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/ltspice.jpg "Figure 9: Ltspice")
+
+#### Question 1: check the operation in nominal conditions
+Normally, the circuit amplify with a gain equals 100.
+#### Question 2:  is the impact of the LTC1050C amplifier offset acceptable ?
+The offset of input is 0.5mv, with our gain of 100, the offset of output 50mv which make 1 digit error in the 12 bits ADC.
+#### Question 3:  is the impact of the amplifier input current acceptable ?
+With the data sheet of ltc1050, we got the input noise current is 1.8fA/sqrt(HZ). So with a signal of 1KHz, we have an erreur 5.6E-14 << 1E-9 
+
+#### Question 4:  what is the cutoff frequency of each low-pass filter stage?
+stage 1: 15.9Hz
+stage 2: 1.59Hz
+stage 3: 1.59KHz
+#### Question 5 : What is the global attenuation of a 50 Hz current noise ?
+The global attenuation equals 40 dB of 50Hz current noise.
+
+#### Question 6 : What is the global attenuation of a current noise occurring at the aliasing limit frequency (in the case of Arduino Uno ADC) ?
+For a 16MHz Arduino, the ADC clock is set to 16MHz/128=125KHz. Each conversion takes 13 ADC clocks so 125KHz/13 = 9615Hz. At this frequency, we have an attenuation of 115 dB.
