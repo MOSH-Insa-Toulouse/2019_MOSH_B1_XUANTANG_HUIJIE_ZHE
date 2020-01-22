@@ -12,7 +12,7 @@ Components:
 - A Lora chip RN2483A
 - A Grove Gas Sensor
 - A buzzer
-![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/ardunio.jpg "Figure 1: Arduino")
+![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/arduino.jpg "Figure 1: Arduino")
 
 With Arduino, we achieve to make a detecting system that when the gas index is higher than our standard, the buzzer will alarm. The code is in the folder.
 After the soldering of the LoRa chip RN2483A, we succeed in communicating with the TTN platform, here is the screenshot of TTN:
@@ -33,7 +33,7 @@ Finally, we did a dashboard by Node-Red, retrieving the data from TTN platform.
 
 In order to establish the best circuit between the LoRa module and the gas sensor introduced in the MOSH section above, we have drawn the following circuit diagram, which includes our components: a LoRa Module (RN2483) as transceiver, a Gas sensor, an amplifier (LTC1050) and two connector.
 
-![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/circuit_diagram.jpg "Figure 5: Diagram of the shield's electrical circuit")
+![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/schema.jpg "Figure 5: Diagram of the shield's electrical circuit")
 
 After the electrical diagram is completed, the different components must be packaged and integrated on a board. This is a complicated process, we have to consider the placement of components and the problem of circuit connection. The principle is to make the connection as simple as possible, without interleaving, and to ensure the safety of the circuit based on the correct circuit connection. Our results are as follows:
 
