@@ -12,7 +12,7 @@ Components:
 - A Lora chip RN2483A
 - A Grove Gas Sensor
 - A buzzer
-![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/arduino.jpg "Figure 1: Arduino")
+![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/schema.jpg "Figure 1: Arduino")
 
 With Arduino, we achieve to make a detecting system that when the gas index is higher than our standard, the buzzer will alarm. The code is in the folder.
 After the soldering of the LoRa chip RN2483A, we succeed in communicating with the TTN platform, here is the screenshot of TTN:
