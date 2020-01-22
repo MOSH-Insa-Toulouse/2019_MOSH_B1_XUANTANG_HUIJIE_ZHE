@@ -48,8 +48,8 @@ Here is the final 3d model of our results:
 
 ## Part LTSpice
 
-This stage is composed of several filters and an operational amplifier. We used LTSpice to simulate the analog circuit.
-![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/ltspice.jpg "Figure 9: Ltspice")
+The stage is composed of several filters and an operational amplifier. We used LTSpice to simulate the analog circuit.
+![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/ltspice.JPG "Figure 9: Ltspice")
 
 #### Question 1: check the operation in nominal conditions
 Normally, the circuit amplify with a gain equals 100.
