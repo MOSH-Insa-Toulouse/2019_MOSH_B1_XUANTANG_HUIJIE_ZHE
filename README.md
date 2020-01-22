@@ -14,7 +14,7 @@ Components:
 - A buzzer
 ![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/arduino.jpg "Figure 1: Arduino")
 
-With Arduino, we achieve to make a detecting system that when the gas index is higher than our standard, the buzzer will alarm. The code is in the folder.
+With Arduino, we achieve to make a detecting system that when the gas index is higher than our standard, the buzzer will alarm. We used interruption of arduino to do this. The code is in the folder.
 After the soldering of the LoRa chip RN2483A, we succeed in communicating with the TTN platform, here is the screenshot of TTN:
 
 ![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/ttn.PNG "Figure 2: ttn data")
