@@ -33,13 +33,15 @@ Finally, we did a dashboard by Node-Red, retrieving the data from TTN platform.
 
 In order to establish the best circuit between the LoRa module and the gas sensor introduced in the MOSH section above, we have drawn the following circuit diagram, which includes our components: a LoRa Module (RN2483) as transceiver, a Gas sensor, an amplifier (LTC1050) and two connector.
 
-![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/circuit_diagram.jpg "Figure 5: Diagram of the shield's electrical circuit")
+![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/schema.jpg "Figure 5: Diagram of the shield's electrical circuit")
 
 After the electrical diagram is completed, the different components must be packaged and integrated on a board. This is a complicated process, we have to consider the placement of components and the problem of circuit connection. The principle is to make the connection as simple as possible, without interleaving, and to ensure the safety of the circuit based on the correct circuit connection. Our results are as follows:
 
 ![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/PCB.jpg "Figure 6: Printed circuit board 1")
+We have not only adjusted the layout of the components, but also considered the thickness and spacing of the connected copper wires, because copper wires that are too thin or too close will cause safety issues.
 
-We used two layers of circuits, the lower layer was connected to ground, the voltage was zero, and the upper layer was a circuit connected to other components.
+We used two layers of circuits, the lower layer was connected to ground, the voltage was zero. All the arrangements of wire are on the upper layer of the pcb board. If we need to connect to the ground, we will make a hole.
+All the arrangements of wire are on the upper layer of the pcb board. If we need to connect to the ground, we will make a hole. The advantage of this method is that the upper circuit can be more concise.
 ![avatar](https://github.com/MOSH-Insa-Toulouse/2019_MOSH_B1_XUANTANG_HUIJIE_ZHE/blob/master/pic/PCB_2.jpg "Figure 7: Printed circuit board 2")
 
 Here is the final 3d model of our results:
