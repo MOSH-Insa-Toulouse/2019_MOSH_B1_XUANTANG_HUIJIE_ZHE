@@ -1,4 +1,4 @@
-# 2019_MOSH_B1_XUANTANG_HUIJIE_ZHE
+# 2019_MOSH_B1_XUANTANG_HUIJIE_ZHE_MOHAN
 This project aims to develop a dangerous gas detecting system, whose buzzer will alarm as soon as the gas index is higher than the warning line. The system includes programming the software based on Arduino, sending the data of gas sensor to TTN platform via LoRa, using Node-Red to display our data on a graphical interface and finally designing the PCB board by Kicad. 
  
  Documents in attachment
